@@ -1,16 +1,16 @@
 body{
-    font-size: 34px;
+    font-size: 1.75em;
     margin: 0 10%;
     background:
-    linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
-    linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+    linear-gradient(324deg, #0e2c41 4%,   transparent 4%) -70px 43px,
+    linear-gradient( 36deg, #0e2c41 4%,   transparent 4%) 30px 43px,
     linear-gradient( 72deg, #ffffff 8.5%, transparent 8.5%) 30px 43px,
     linear-gradient(288deg, #ffffff 8.5%, transparent 8.5%) -70px 43px,
     linear-gradient(216deg, #ffffff 8.5%, transparent 8.5%) -70px 23px,
     linear-gradient(144deg, #ffffff 8.5%, transparent 8.5%) 30px 23px,
     
-    linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
-    linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+    linear-gradient(324deg, #0e2c41 4%,   transparent 4%) -20px 93px,
+    linear-gradient( 36deg, #0e2c41 4%,   transparent 4%) 80px 93px,
     linear-gradient( 72deg, #ffffff 8.5%, transparent 8.5%) 80px 93px,
     linear-gradient(288deg, #ffffff 8.5%, transparent 8.5%) -20px 93px,
     linear-gradient(216deg, #ffffff 8.5%, transparent 8.5%) -20px 73px,
@@ -21,6 +21,7 @@ body{
 
 h1{
     color: rgb(255, 145, 0);
+
 }
 h2{
     color: rgb(226, 87, 6);
@@ -32,7 +33,8 @@ h3{
 
 p{
     color: rgb(9, 255, 0);
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 1.25em;
 }
 
 a{
@@ -123,23 +125,27 @@ li{
 
 /*footer settings*/
 
-.foot{
-    margin-top: 20px;
+.contact{
+    margin-top: auto;
+    padding: auto;
     background-color: #232927f3;
     text-align: center;
+    font-size: 2.5em;
 }
 
-.foot ul {
+.contact ul {
     list-style-type: none;
     padding: 0;
     
 }
-.foot li {
+.contact li {
     display: inline-block;
     margin: 0 10px;
+    padding: auto;
+    font-size: .7em;
 }
 
-.foot a:hover {
+.contact a:hover {
     color:#ffffff;
     
 }
@@ -159,10 +165,17 @@ li{
 
      @media only screen and (max-width: 480px) {
         /* Adjust styles for mobile devices */
+        body{
+            font-size: .75em;
+        }
         h1 {
-            font-size: 24px;
+            font-size: .75em;
          }
         p {
-            font-size: 14px;
+            font-size: .75em;
+        }
+        img{
+            margin: auto;
+            padding: auto;
         }
     }
