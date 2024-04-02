@@ -32,7 +32,7 @@ h3{
 }
 
 p{
-    color: rgb(9, 255, 0);
+    color: rgb(239, 243, 16);
     font-weight: 300;
     font-size: 1.25em;
 }
@@ -48,14 +48,17 @@ li{
     color:rgb(255, 153, 0)
 }
 /*sections/divs*/
-.container{
+.summary{
     text-align: center;
     margin-top: 20px;
     background-color: #232927f3;
     padding: auto;
 }
-.summary{
+.container{
+    text-align: center;
+    margin-top: 20px;
     background-color: #232927f3;
+    padding: auto;
 }
 
 .proj-grid{
@@ -148,6 +151,9 @@ li{
 .contact a:hover {
     color:#ffffff;
     
+}
+.contact p {
+      font-size: 2.5rem;
 }
 .fa {
     font-size: 24px;
