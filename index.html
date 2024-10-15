@@ -5,91 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon's Portifolo</title>
     <link href="style.css"  rel="stylesheet" >
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="summary">
-        <h1>Brandon's Portifolo</h1>
-        <p>Click on the github to check out the rest of my codes that are not listed on this site. Or if you have any questions
-            shoot over an email.
+
+    <div class="links">
+        <p>
+          <a href="#ab">About</a>
         </p>
+        <p>
+          <a href="#pj">Projects</a>
+        </p>
+        <p>
+          <a href="#cont">Contact</a>
+        </p>
+
     </div>
-    <div class="contact">
-        <ul>
-            <li><a href="https://github.com/seuxtx" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/brandon-salter-9b1433282/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-        </ul>
-        <p>Gmail: bsalter5444@gmail.com</p>
-    </div>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Hello my name is Brandon 'Seux' Salter. I enjoy playing games, artwork and building websites which you can check out some of my websites that I have created below.
-            Generally I try to update this page often with new projects that I have worked on and published to my github account. 
-            If there you see something on my github but not here then that means I don't find it that unique to add on to this page.
-            
-         </p>
-    </div>
-    <div class="container">
-        <p>Hover over and Click on any of the images to check out the website to the fullest.</p>
-        <section class="projects">
-            <h2>Codecademy Projects</h2>
-            <div class="proj-grid">
-                <div class="quote">
-                    <h3>Random Quote Generator</h3>
-                    <div class="image">
-                        <a href="https://seuxtx.github.io/Random-Quote-generator/" target="_blank">
-                            <img src="./images/quote.png" width="350" height="350">
+    <div class="video-back">
+        <!-- <video autoplay loop muted playsinline>
+            <source src="https://ahri2mp4.rule34.xxx//images/4106/f3c6fd84fde02145182ac444366a73bc.mp4?4661958" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> -->
+        <div class="outline">
+        <div class="summary">
+            <h1>Hey, I'm Brandon. Nice To Meet You.</h1>
+            <h2> I'm a Full Stack Engineer.</h2>
+            <p> Always looking for a new challenge to prove myself, I'm a full stack engineer with a passion to learn new langagues or programming logic. Most of the programming langagues that I have used to create some websites include Javascript, Node.js, HTML, CSS, React, and Python.
+            </p>
+        </div>
+
+        <div id="ab"class="about">
+            <h2>About Me</h2>
+            <p>Hello my name is Brandon 'Seux' Salter. You can check out some of my websites that I have created down below.
+                Generally I try to update this page often with new projects that I have worked on and published to my github account. 
+                If there you see something on my github but not here then that means I don't find it that unique to add on to this page.
+                In my off time when not learning new challenges I am doodling artwork, playing games, reading books, fishing, 3D printing/model making and baking food.
+            </p>
+        </div>
+        <div id="pj" class="projects">
+            <p>Hover over and Click on any of the images to check out the website to the fullest.</p>
+            <section class="projects">
+                <h2>Codecademy Projects</h2>
+                <div class="proj-grid">
+                    <div class="quote">
+                        <h3>Random Quote Generator</h3>
+                        <div class="image">
+                            <a href="https://seuxtx.github.io/Random-Quote-generator/" target="_blank">
+                                <img src="./images/quote.png" width="350" height="350">
+                            </a>
+                        </div>
+                        <p>Random Quote Generator
+                        A button that randomly selects
+                        a quote and displays it.</p>
+                    </div>
+                    
+                    <div class="numGuess">
+                        <h3>Guess a number</h3>
+                        <div class="image">
+                            <a href="https://seuxtx.github.io/Number-Guessing/" target="_blank">
+                                <img src="images/numguess.png" width="350" height="350">
+                            </a> 
+                            <p>Guess a number and who ever is closer wins</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div id="video"></div>
+                <a href="https://github.com/seuxtx/excursion" target="_blank">Excursion</a>
+                <br>
+                <button id="play-video-btn">Play Video</button>
+                <div id="video-container">
+                    <video controls width="600">
+                        <source src="images/excursion.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+
+
+                <!-- /* Keep the h2 out of the proj-grid div*/ -->
+                <h2>Personal Projects</h2>
+                <div class="proj-grid">
+                    
+                    <div class="falke">
+                        <h3>FalkeDex</h3>
+                        <div class="image">
+                            <a href="https://seuxtx.github.io/FalkeDex/" target="_blank">
+                            <img src="./images/falkedex.png" width="700" height="500">
                         </a>
+                        </div>
+                        <br>
+                        <p>This was a side project I did for an artist that is one of my friends. She made a group of pokemon girls in her vision but had no where to showcase them besides twitter which it has been disabled in Brazil.</p>
                     </div>
-                    <p>Random Quote Generator
-                    A button that randomly selects
-                    a quote and displays it.</p>
-                </div>
                 
-                <div class="numGuess">
-                    <h3>Guess a number</h3>
-                    <div class="image">
-                        <a href="https://seuxtx.github.io/Number-Guessing/" target="_blank">
-                            <img src="images/numguess.png" width="350" height="350">
-                        </a> 
-                        <p>Guess a number and who ever is closer wins</p>
-                    </div>
                 </div>
-
+            </section>
+            <div id="cont" class="contact">
+                <ul>
+                    <li><a href="https://github.com/seuxtx" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/brandon-salter-9b1433282/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+                <p>Gmail: bsalter5444@gmail.com</p>
             </div>
-            
-            <div id="video"></div>
-            <a href="https://github.com/seuxtx/excursion" target="_blank">Excursion</a>
-            <br>
-            <button id="play-video-btn">Play Video</button>
-            <div id="video-container">
-                <video controls width="600">
-                    <source src="images/excursion.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+        </div>
+        </div>
 
-
-
-            <!-- /* Keep the h2 out of the proj-grid div*/ -->
-            <h2>Personal Projects</h2>
-            <div class="proj-grid">
-                
-                <div class="falke">
-                    <h3>FalkeDex</h3>
-                    <div class="image">
-                        <a href="https://seuxtx.github.io/FalkeDex/" target="_blank">
-                        <img src="./images/falkedex.png" width="700" height="500">
-                    </a>
-                    </div>
-                    <br>
-                    <p>This was a side project I did for an artist that is one of my friends. She made a group of pokemon girls in her vision but had no where to showcase them besides twitter.</p>
-                </div>
-               
-            </div>
-        </section>
     </div>
-
     <script src="videop.js"></script>
 </body>
 </html>

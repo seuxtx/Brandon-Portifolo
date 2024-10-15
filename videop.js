@@ -1,3 +1,4 @@
+
         // Get references to elements
         const playVideoButton = document.getElementById("play-video-btn");
         const videoContainer = document.getElementById("video-container");
